@@ -1,0 +1,56 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "sourceMap": true,
+    "noEmitOnError": true,
+    "noImplicitAny": false,
+
+
+    "allowSyntheticDefaultImports": true,
+
+    "noEmit": true,
+    "noEmitHelpers": true,
+    "importHelpers": true,
+
+    "module": "esnext",
+    "target": "es2015",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "moduleResolution": "node",
+    "allowJs": true,
+    "baseUrl": ".",
+
+    "skipLibCheck": true,
+
+    "removeComments": false,
+
+
+    "lib": [
+      "es2015",
+      "es2016.array.include",
+      "es2016.promise",
+      "es2016.map",
+      "es2017",
+      "dom",
+      "tslib"
+    ],
+    "typeRoots": [
+      "./node_modules/@types",
+      "./types"
+    ],
+    "paths": {
+    },
+    "jsx": "react"
+  },
+  "files": [
+  ],
+  "include": [
+    "src/**/*.tsx",
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "src/**/*.spec.ts",
+    "src/**/*.spec.tsx"
+  ]
+}

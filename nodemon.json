@@ -1,0 +1,7 @@
+{
+  "verbose":true,
+  "watch": ["bin/www.js"],
+  "ext": "js",
+  "ignore": ["src/**/*.spec.ts"],
+  "exec": "node ./bin/www.js"
+}
